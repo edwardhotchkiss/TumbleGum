@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034C69D913C7ADC60018DC55 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 034C69D613C7ADC60018DC55 /* icon-72.png */; };
+		034C69DA13C7ADC60018DC55 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 034C69D713C7ADC60018DC55 /* icon.png */; };
+		034C69DB13C7ADC60018DC55 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 034C69D813C7ADC60018DC55 /* icon@2x.png */; };
+		034C69DF13C7ADEB0018DC55 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 034C69DD13C7ADEB0018DC55 /* Default.png */; };
+		034C69E013C7ADEB0018DC55 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 034C69DE13C7ADEB0018DC55 /* Default@2x.png */; };
+		03D0BD6C1395A80B002D08B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D0BD6B1395A80B002D08B3 /* UIKit.framework */; };
+		03D0BD6E1395A80B002D08B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D0BD6D1395A80B002D08B3 /* Foundation.framework */; };
+		03D0BD701395A80B002D08B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D0BD6F1395A80B002D08B3 /* CoreGraphics.framework */; };
+		03D0BD761395A80B002D08B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D0BD741395A80B002D08B3 /* InfoPlist.strings */; };
+		03D0BD791395A80B002D08B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D0BD781395A80B002D08B3 /* main.m */; };
+		03D0BD9E1395A916002D08B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D0BD921395A916002D08B3 /* AppDelegate.m */; };
+		03D0BD9F1395A916002D08B3 /* LoadingModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D0BD941395A916002D08B3 /* LoadingModalView.m */; };
+		03D0BDA01395A916002D08B3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D0BD961395A916002D08B3 /* MainViewController.m */; };
+		03D0BDA11395A916002D08B3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D0BD981395A916002D08B3 /* SettingsViewController.m */; };
+		03D0BDA21395A916002D08B3 /* TumblrLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D0BD9B1395A916002D08B3 /* TumblrLogin.m */; };
+		03D0BDA31395A916002D08B3 /* TumblrPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D0BD9D1395A916002D08B3 /* TumblrPost.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034C69D613C7ADC60018DC55 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Artwork/icon-72.png"; sourceTree = SOURCE_ROOT; };
+		034C69D713C7ADC60018DC55 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Artwork/icon.png; sourceTree = SOURCE_ROOT; };
+		034C69D813C7ADC60018DC55 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Artwork/icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		034C69DD13C7ADEB0018DC55 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Artwork/Default.png; sourceTree = SOURCE_ROOT; };
+		034C69DE13C7ADEB0018DC55 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Artwork/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		03D0BD671395A80A002D08B3 /* TumbleGum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TumbleGum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D0BD6B1395A80B002D08B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03D0BD6D1395A80B002D08B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03D0BD6F1395A80B002D08B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03D0BD731395A80B002D08B3 /* TumbleGum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TumbleGum-Info.plist"; sourceTree = "<group>"; };
+		03D0BD751395A80B002D08B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03D0BD771395A80B002D08B3 /* TumbleGum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TumbleGum-Prefix.pch"; sourceTree = "<group>"; };
+		03D0BD781395A80B002D08B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03D0BD911395A916002D08B3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		03D0BD921395A916002D08B3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		03D0BD931395A916002D08B3 /* LoadingModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingModalView.h; path = Classes/LoadingModalView.h; sourceTree = "<group>"; };
+		03D0BD941395A916002D08B3 /* LoadingModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingModalView.m; path = Classes/LoadingModalView.m; sourceTree = "<group>"; };
+		03D0BD951395A916002D08B3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		03D0BD961395A916002D08B3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
+		03D0BD971395A916002D08B3 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = Classes/SettingsViewController.h; sourceTree = "<group>"; };
+		03D0BD981395A916002D08B3 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = Classes/SettingsViewController.m; sourceTree = "<group>"; };
+		03D0BD991395A916002D08B3 /* TumbleGum-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TumbleGum-Prefix.pch"; path = "Classes/TumbleGum-Prefix.pch"; sourceTree = "<group>"; };
+		03D0BD9A1395A916002D08B3 /* TumblrLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TumblrLogin.h; path = Classes/TumblrLogin.h; sourceTree = "<group>"; };
+		03D0BD9B1395A916002D08B3 /* TumblrLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TumblrLogin.m; path = Classes/TumblrLogin.m; sourceTree = "<group>"; };
+		03D0BD9C1395A916002D08B3 /* TumblrPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TumblrPost.h; path = Classes/TumblrPost.h; sourceTree = "<group>"; };
+		03D0BD9D1395A916002D08B3 /* TumblrPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TumblrPost.m; path = Classes/TumblrPost.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D0BD641395A80A002D08B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D0BD6C1395A80B002D08B3 /* UIKit.framework in Frameworks */,
+				03D0BD6E1395A80B002D08B3 /* Foundation.framework in Frameworks */,
+				03D0BD701395A80B002D08B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034C69DC13C7ADC80018DC55 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				034C69D613C7ADC60018DC55 /* icon-72.png */,
+				034C69D713C7ADC60018DC55 /* icon.png */,
+				034C69D813C7ADC60018DC55 /* icon@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		034C69E113C7ADF00018DC55 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				034C69DD13C7ADEB0018DC55 /* Default.png */,
+				034C69DE13C7ADEB0018DC55 /* Default@2x.png */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		03D0BD5C1395A80A002D08B3 = {
+			isa = PBXGroup;
+			children = (
+				03D0BD711395A80B002D08B3 /* TumbleGum */,
+				03D0BD6A1395A80B002D08B3 /* Frameworks */,
+				03D0BD681395A80A002D08B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03D0BD681395A80A002D08B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D0BD671395A80A002D08B3 /* TumbleGum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D0BD6A1395A80B002D08B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03D0BD6B1395A80B002D08B3 /* UIKit.framework */,
+				03D0BD6D1395A80B002D08B3 /* Foundation.framework */,
+				03D0BD6F1395A80B002D08B3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03D0BD711395A80B002D08B3 /* TumbleGum */ = {
+			isa = PBXGroup;
+			children = (
+				03D0BD8B1395A848002D08B3 /* Classes */,
+				03D0BD8C1395A855002D08B3 /* Artwork */,
+				03D0BD721395A80B002D08B3 /* Supporting Files */,
+			);
+			path = TumbleGum;
+			sourceTree = "<group>";
+		};
+		03D0BD721395A80B002D08B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03D0BD991395A916002D08B3 /* TumbleGum-Prefix.pch */,
+				03D0BD731395A80B002D08B3 /* TumbleGum-Info.plist */,
+				03D0BD741395A80B002D08B3 /* InfoPlist.strings */,
+				03D0BD771395A80B002D08B3 /* TumbleGum-Prefix.pch */,
+				03D0BD781395A80B002D08B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03D0BD8B1395A848002D08B3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03D0BDA51395A995002D08B3 /* UI */,
+				03D0BDA41395A975002D08B3 /* TumblrAPI */,
+				03D0BD911395A916002D08B3 /* AppDelegate.h */,
+				03D0BD921395A916002D08B3 /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		03D0BD8C1395A855002D08B3 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				034C69E113C7ADF00018DC55 /* Splash */,
+				034C69DC13C7ADC80018DC55 /* Icons */,
+			);
+			name = Artwork;
+			sourceTree = "<group>";
+		};
+		03D0BDA41395A975002D08B3 /* TumblrAPI */ = {
+			isa = PBXGroup;
+			children = (
+				03D0BD9A1395A916002D08B3 /* TumblrLogin.h */,
+				03D0BD9B1395A916002D08B3 /* TumblrLogin.m */,
+				03D0BD9C1395A916002D08B3 /* TumblrPost.h */,
+				03D0BD9D1395A916002D08B3 /* TumblrPost.m */,
+			);
+			name = TumblrAPI;
+			sourceTree = "<group>";
+		};
+		03D0BDA51395A995002D08B3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				03D0BD931395A916002D08B3 /* LoadingModalView.h */,
+				03D0BD941395A916002D08B3 /* LoadingModalView.m */,
+				03D0BD951395A916002D08B3 /* MainViewController.h */,
+				03D0BD961395A916002D08B3 /* MainViewController.m */,
+				03D0BD971395A916002D08B3 /* SettingsViewController.h */,
+				03D0BD981395A916002D08B3 /* SettingsViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D0BD661395A80A002D08B3 /* TumbleGum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D0BD881395A80B002D08B3 /* Build configuration list for PBXNativeTarget "TumbleGum" */;
+			buildPhases = (
+				03D0BD631395A80A002D08B3 /* Sources */,
+				03D0BD641395A80A002D08B3 /* Frameworks */,
+				03D0BD651395A80A002D08B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TumbleGum;
+			productName = TumbleGum;
+			productReference = 03D0BD671395A80A002D08B3 /* TumbleGum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D0BD5E1395A80A002D08B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "http://www.edwardhotchkiss.com";
+			};
+			buildConfigurationList = 03D0BD611395A80A002D08B3 /* Build configuration list for PBXProject "TumbleGum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03D0BD5C1395A80A002D08B3;
+			productRefGroup = 03D0BD681395A80A002D08B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D0BD661395A80A002D08B3 /* TumbleGum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D0BD651395A80A002D08B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D0BD761395A80B002D08B3 /* InfoPlist.strings in Resources */,
+				034C69D913C7ADC60018DC55 /* icon-72.png in Resources */,
+				034C69DA13C7ADC60018DC55 /* icon.png in Resources */,
+				034C69DB13C7ADC60018DC55 /* icon@2x.png in Resources */,
+				034C69DF13C7ADEB0018DC55 /* Default.png in Resources */,
+				034C69E013C7ADEB0018DC55 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D0BD631395A80A002D08B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D0BD791395A80B002D08B3 /* main.m in Sources */,
+				03D0BD9E1395A916002D08B3 /* AppDelegate.m in Sources */,
+				03D0BD9F1395A916002D08B3 /* LoadingModalView.m in Sources */,
+				03D0BDA01395A916002D08B3 /* MainViewController.m in Sources */,
+				03D0BDA11395A916002D08B3 /* SettingsViewController.m in Sources */,
+				03D0BDA21395A916002D08B3 /* TumblrLogin.m in Sources */,
+				03D0BDA31395A916002D08B3 /* TumblrPost.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03D0BD741395A80B002D08B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D0BD751395A80B002D08B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03D0BD861395A80B002D08B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03D0BD871395A80B002D08B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		03D0BD891395A80B002D08B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TumbleGum/TumbleGum-Prefix.pch";
+				INFOPLIST_FILE = "TumbleGum/TumbleGum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03D0BD8A1395A80B002D08B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TumbleGum/TumbleGum-Prefix.pch";
+				INFOPLIST_FILE = "TumbleGum/TumbleGum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D0BD611395A80A002D08B3 /* Build configuration list for PBXProject "TumbleGum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D0BD861395A80B002D08B3 /* Debug */,
+				03D0BD871395A80B002D08B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D0BD881395A80B002D08B3 /* Build configuration list for PBXNativeTarget "TumbleGum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D0BD891395A80B002D08B3 /* Debug */,
+				03D0BD8A1395A80B002D08B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D0BD5E1395A80A002D08B3 /* Project object */;
+}
